@@ -10,7 +10,7 @@ const WatchList = () => {
         <div className="header">
           <h1 className="heading">İzlenecek Filmler</h1>
           <div className="count-pill">
-            {watchList.length} {WatchList.lengt < 2 ? "Movie" : "Movies"}
+            {watchList.length} {watchList.lengt < 2 ? "Movie" : "Movies"}
           </div>
         </div>
 
